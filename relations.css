@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    height:auto;
+    text-size:70px;
+    section, h2, p{
+    text-align:center;
+    }
+    
+    img{
+    border-radius:50%;
+    height:900px;
+    width:700px;
+ } 
+
+ body{
+    padding-left:140px;
+    background-image: url("./Pics/paper.gif");
+}
+
+/*Navigation bar stylesheet*/
+nav{ margin: 0;
+    color: cadetblue;
+    background-color: cadetblue;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+    } 
+} 
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a:visited{
+    background-color: red;
+    color: red;
+}
+
+a:link{
+    color:red;
+
+}
+
+li:hover{
+    background-color:green;
+    a:hover{
+    color:blue;}    
+}
+
+.active{
+    background-color:aqua;
+}
+
+/*End of navigation css*/
+
+
+/*Begining of side navigation style sheet*/
+.sidenav{
+  height:100%;
+  width:140px;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:white;
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+
+  a{
+    padding: 6px 8px 6px 16px;
+    margin-top:3px solid black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  a:hover {
+  color: blue;
+  }
+  
+
+
+/*End of side navigation style sheet*/
+
+
+
+
+
+h2{
+    text-align:center;
+}
+
+h3{
+    margin-left:20px;
+}
+
+
+
+
+/*Footer css*/
+footer {
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+    border:10px solid black;
+  }
+/* footer css end */

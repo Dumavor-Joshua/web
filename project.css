@@ -1,0 +1,57 @@
+*{
+ margin:0;
+ }
+
+body{
+    background-image: url("./Pics/paper.gif");
+}
+
+/*Navigation bar stylesheet*/
+nav{
+    color: cadetblue;
+    background-color: cadetblue;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+    } 
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a:visited{
+    background-color: red;
+    color: red;
+}
+
+a:link{
+    color:red;
+
+}
+
+li:hover{
+    background-color:green;
+    a:hover{
+    color:blue;}    
+}
+
+.active{
+    background-color:aqua;
+}
+
+/*End of navigation css*/
+
+
+
+
+/*Footer css*/
+footer {
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+    border:10px solid black;
+  }
+  /* footer css end */
+  

@@ -1,0 +1,92 @@
+*{
+   margin: 0;
+   height:auto;
+}  
+
+body{
+    background-image: url("./Pics/paper.gif");
+}
+
+/*Navigation bar stylesheet*/
+nav{
+    margin: 0;
+    color: cadetblue;
+    background-color: cadetblue;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+    } 
+} 
+
+li{ margin: 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+a:visited{
+    background-color: red;
+    color: red;
+}
+
+a:link{
+    color:red;
+
+}
+
+li:hover{
+    background-color:green;
+    a:hover{
+    color:blue;}    
+}
+
+.active{
+    background-color:aqua;
+}
+
+/*End of navigation css*/
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+  float:none;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+/* beginning of img css */
+
+img{
+    width: 50%;
+    float: left;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:480px) {
+
+    img{
+       height:700px;
+       width: 100%;
+       float: none;
+       border-radius: 0%;
+     }
+
+/* end of img css */
+
+
+/*Footer css*/
+footer {
+  background-color: aquamarine;
+  color: red;
+  text-align: center;
+  border:10px solid black;
+}
+/* footer css end */
+
+
